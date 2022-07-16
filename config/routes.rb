@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # post '/users', to: 'users#create'
   # get '/users/:id', to: 'users#show'
+  get '/', to: 'home#index'
 
   namespace :api do
     namespace :v1 do
